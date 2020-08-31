@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagens/Fundo.jpg);
+  background-size:100%;
+  background-position-y: center;
+  opacity: 0.7;
+
+}
+
+.botoes{
+  list-style: none;
+  text-align: center;
+  padding-top: 45%;
+
+
+}
+
+.botoes ul li{
+  display: inline;
+  padding: 3%;
+}
+
+.botoes ul li a{
+  text-decoration: none;
+  list-style: none;
+  font-size: 38px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(0, 0,0, 0.8);
+  border-radius: 10px;
+  border: black 2px solid;
+  padding: 1% 1% 1% 1%;
+}
+
+.botoes ul li a:hover{
+  background-color:rgba(255,255,255, 0.8);
+  color: black;
+  border-radius: 10px;
+  border: black 2px solid;
+  padding: 1% 1% 1% 1%;
+
+}
+
+@media (max-width:600px) and (max-height:800px){
+  .botoes ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 38px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(0, 0,0, 0.8);
+    border-radius: 10px;
+    border: black 2px solid;
+    padding: 1% 1% 1% 1%;
+  }
+  .botoes ul li{
+    display: table;
+    width: 100%;
+  }
+  header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagens/Fundo.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    opacity: 0.7;
+  
+  }
+
+}
